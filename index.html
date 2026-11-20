@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Python с нуля до первой работы — школа «Код за 90 дней»</title>
+  <meta name="description" content="Онлайн-курс Python за 90 дней: практика, код-ревью и подготовка к собеседованию. Набор на ближайший поток, три тарифа, заявка без оплаты на сайте.">
+  <meta property="og:title" content="Python с нуля до первой работы — «Код за 90 дней»">
+  <meta property="og:description" content="Шесть модулей, наставники и карьерный трек. Старт потока через неделю. Школа «Код за 90 дней».">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#111111">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,560;7..72,650&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#content">К содержанию</a>
+  <header class="header">
+    <a class="logo" href="#top">Код за 90 дней</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#program">Программа</a>
+      <a href="#teachers">Преподаватели</a>
+      <a href="#prices">Тарифы</a>
+      <a href="#faq">Вопросы</a>
+      <a class="nav-cta" href="#apply">Записаться</a>
+    </nav>
+  </header>
+  <main id="content">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Онлайн-курс · поток набирается сейчас</p>
+        <h1>Python с нуля до первой работы</h1>
+        <p class="lede">За 90 дней собираете рабочий проект, проходите код-ревью и готовитесь к собеседованию на джуна. Без обещания «офер в первый день», с понятным расписанием.</p>
+        <div class="hero-actions">
+          <a class="btn btn-accent" href="#apply">Записаться</a>
+          <a class="btn btn-ghost" href="#program">Смотреть программу</a>
+        </div>
+        <p class="deadline">Набор закроется в момент старта потока: <strong id="start-label">через 7 дней</strong>.</p>
+      </div>
+      <aside class="timer" aria-label="До старта потока">
+        <p class="timer-kicker">До старта</p>
+        <div class="timer-grid">
+          <div><strong id="d">00</strong><span>дней</span></div>
+          <div><strong id="h">00</strong><span>часов</span></div>
+          <div><strong id="m">00</strong><span>минут</span></div>
+          <div><strong id="s">00</strong><span>секунд</span></div>
+        </div>
+        <p class="timer-note">Дата считается в браузере: текущий момент плюс семь суток. Это демонстрационный таймер, не регистрация в учебной группе.</p>
+      </aside>
+    </section>
+
+    <section class="section" id="who">
+      <div class="section-head reveal">
+        <p class="eyebrow">Для кого</p>
+        <h2>Четыре типичных старта, один темп</h2>
+      </div>
+      <div class="cards cards-4">
+        <article class="card reveal">
+          <h3>С чистого листа</h3>
+          <p>Не писали код. Начинаем с установки и первого скрипта, без «вы и так это знаете».</p>
+        </article>
+        <article class="card reveal">
+          <h3>Смена профессии</h3>
+          <p>Есть работа не в IT. Показываем, как упаковать прошлый опыт в резюме джуна, а не прятать его.</p>
+        </article>
+        <article class="card reveal">
+          <h3>После учёбы</h3>
+          <p>Теория в вузе была, практики мало. Собираете сервис, который можно показать на собеседовании.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Уже бросали курсы</h3>
+          <p>Короткие дедлайны по неделям и живое ревью, чтобы материал не оставался в закладках.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="program">
+      <div class="section-head reveal">
+        <p class="eyebrow">Программа</p>
+        <h2>Шесть модулей, каждый закрывается практикой</h2>
+        <p>Ориентир — 10–12 часов в неделю. Записи уроков остаются, созвоны с разбором — по расписанию потока.</p>
+      </div>
+      <div class="acc reveal" data-accordion>
+        <div class="acc-item is-open">
+          <button type="button" aria-expanded="true">Модуль 1. Среда и первый скрипт<span aria-hidden="true"></span></button>
+          <div class="acc-panel">
+            <p>Ставите Python, редактор и Git. Пишете скрипт, который читает файл и печатает сводку. В конце недели — первый пул-реквест наставнику.</p>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Модуль 2. Данные, условия, циклы<span aria-hidden="true"></span></button>
+          <div class="acc-panel">
+            <p>Списки, словари, строки, разбор CSV. Учебная задача: посчитать выручку по дням из выгрузки магазина и найти три аномалии.</p>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Модуль 3. Функции и модули<span aria-hidden="true"></span></button>
+          <div class="acc-panel">
+            <p>Делите программу на функции, пишете простые тесты. Учитесь читать чужой код и оставлять комментарии в ревью, а не только получать их.</p>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Модуль 4. API и базы<span aria-hidden="true"></span></button>
+          <div class="acc-panel">
+            <p>Запросы к открытому API, сохранение в SQLite, обработка ошибок сети. Итог модуля — небольшой сборщик данных с журналом запусков.</p>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Модуль 5. Веб-сервис<span aria-hidden="true"></span></button>
+          <div class="acc-panel">
+            <p>Поднимаете сервис на FastAPI: список задач, фильтр, форма. Деплой на бесплатный хостинг и короткая инструкция, как запустить проект локально.</p>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Модуль 6. Резюме и собеседования<span aria-hidden="true"></span></button>
+          <div class="acc-panel">
+            <p>Разбираете вакансии джуна, собираете резюме на одну страницу и проходите два пробных созвона: технический и про опыт. Разбор записи — отдельно.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="teachers">
+      <div class="section-head reveal">
+        <p class="eyebrow">Преподаватели</p>
+        <h2>Кто ведёт поток</h2>
+      </div>
+      <div class="teachers">
+        <article class="person reveal">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=640&h=800&q=80" alt="Алина Воронова, преподаватель практики, в тёмном пиджаке" width="640" height="800" loading="lazy">
+          <h3>Алина Воронова</h3>
+          <p>Практика и код-ревью. Восемь лет в продуктовых командах, в школе ведёт первые три модуля.</p>
+        </article>
+        <article class="person reveal">
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=640&h=800&q=80" alt="Глеб Сафин, преподаватель бэкенда, в очках и сером свитере" width="640" height="800" loading="lazy">
+          <h3>Глеб Сафин</h3>
+          <p>API и базы. Пишет сервисы на Python, на курсе разбирает ошибки новичков на живых пул-реквестах.</p>
+        </article>
+        <article class="person reveal">
+          <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=640&h=800&q=80" alt="Нина Ершова проводит разбор у доски в учебной аудитории" width="640" height="800" loading="lazy">
+          <h3>Нина Ершова</h3>
+          <p>Карьерный трек. Готовит резюме и пробные собеседования, раньше нанимала джунов в продуктовую команду.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section results" id="results">
+      <div class="section-head reveal">
+        <p class="eyebrow">Выпускники</p>
+        <h2>Цифры прошлых потоков</h2>
+        <p>Считаем тех, кто дошёл до защиты проекта. Поиск работы — отдельно и зависит от города и времени, которое человек готов отдать откликам.</p>
+      </div>
+      <div class="stats">
+        <article class="stat reveal"><strong data-count="640">0</strong><span>человек защитили проект</span></article>
+        <article class="stat reveal"><strong data-count="78">0</strong><span>% нашли работу за 4 месяца</span></article>
+        <article class="stat reveal"><strong data-count="90">0</strong><span>дней длится программа</span></article>
+        <article class="stat reveal"><strong data-count="48" data-suffix="">0</strong><span>средняя оценка потока, из 50</span></article>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="section-head reveal">
+        <p class="eyebrow">Отзывы</p>
+        <h2>Что говорят после защиты</h2>
+      </div>
+      <div class="slider reveal" data-slider>
+        <div class="slider-window" tabindex="0" aria-roledescription="карусель">
+          <div class="slider-track" data-track>
+            <article class="slide">
+              <blockquote>До курса я копировала чужие уроки и не могла объяснить, зачем там цикл. На ревью Алина трижды вернула одну функцию — после этого я наконец стала читать ошибки сама.</blockquote>
+              <p class="who"><strong>Кира Сомова</strong><span>была администратором клиники, Казань</span></p>
+            </article>
+            <article class="slide">
+              <blockquote>Сервис для учёта смен собрал на пятом модуле и принёс его на собеседование. Спрашивали не «курсы», а как я храню статусы. Это и решило.</blockquote>
+              <p class="who"><strong>Пётр Анохин</strong><span>джуниор в логистической компании</span></p>
+            </article>
+            <article class="slide">
+              <blockquote>Пробное собеседование с Ниной было жестче настоящего. На работе спросили про Git, и я не поплыл, потому что пул-реквесты шли каждую неделю.</blockquote>
+              <p class="who"><strong>Ева Мирская</strong><span>перешла из маркетинга</span></p>
+            </article>
+            <article class="slide">
+              <blockquote>Я уже бросал два курса. Здесь дедлайн был на доске потока, а не «когда будет настроение». До защиты дошёл с опозданием на неделю, но дошёл.</blockquote>
+              <p class="who"><strong>Тимур Валеев</strong><span>студент, Уфа</span></p>
+            </article>
+          </div>
+        </div>
+        <div class="slider-bar">
+          <div class="dots" role="tablist" aria-label="Отзывы">
+            <button type="button" data-dot aria-selected="true" aria-label="Отзыв 1"></button>
+            <button type="button" data-dot aria-selected="false" aria-label="Отзыв 2"></button>
+            <button type="button" data-dot aria-selected="false" aria-label="Отзыв 3"></button>
+            <button type="button" data-dot aria-selected="false" aria-label="Отзыв 4"></button>
+          </div>
+          <div class="slider-nav">
+            <button type="button" data-prev aria-label="Предыдущий отзыв">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+            </button>
+            <button type="button" data-next aria-label="Следующий отзыв">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="prices">
+      <div class="section-head reveal">
+        <p class="eyebrow">Тарифы</p>
+        <h2>Один поток, разная плотность поддержки</h2>
+      </div>
+      <div class="plans">
+        <article class="plan reveal">
+          <h3>Самостоятельно</h3>
+          <p class="sum">19 900 ₽</p>
+          <ul>
+            <li>Все записи и конспекты</li>
+            <li>Автопроверка заданий</li>
+            <li>Общий чат потока</li>
+            <li>Без личных созвонов</li>
+          </ul>
+        </article>
+        <article class="plan plan-hot reveal">
+          <p class="badge">Популярный</p>
+          <h3>С наставником</h3>
+          <p class="sum">39 900 ₽</p>
+          <ul>
+            <li>Всё из самостоятельного</li>
+            <li>Код-ревью дважды в неделю</li>
+            <li>Разбор проекта на созвоне</li>
+            <li>Одно пробное собеседование</li>
+          </ul>
+        </article>
+        <article class="plan reveal">
+          <h3>К офферу</h3>
+          <p class="sum">69 900 ₽</p>
+          <ul>
+            <li>Всё из тарифа с наставником</li>
+            <li>Резюме и сопроводительные</li>
+            <li>Четыре пробных созвона</li>
+            <li>Разбор вакансий 8 недель после выпуска</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="section-head reveal">
+        <p class="eyebrow">Вопросы</p>
+        <h2>Коротко по делу</h2>
+      </div>
+      <div class="acc reveal" data-accordion>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Нужен ли опыт в программировании?<span aria-hidden="true"></span></button>
+          <div class="acc-panel"><p>Нет. Нужны ноутбук, стабильный интернет и готовность выделять вечера. Математика школьной программы достаточна.</p></div>
+        </div>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Сколько часов в неделю закладывать?<span aria-hidden="true"></span></button>
+          <div class="acc-panel"><p>10–12 часов: уроки, практика и ревью. Если выходит меньше шести, лучше взять следующий поток, а не этот.</p></div>
+        </div>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Что если заболел или пропал на неделю?<span aria-hidden="true"></span></button>
+          <div class="acc-panel"><p>Записи не сгорают. На тарифах с наставником можно перенести один созвон. Дольше двух недель без практики группу не держим.</p></div>
+        </div>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Вы гарантируете трудоустройство?<span aria-hidden="true"></span></button>
+          <div class="acc-panel"><p>Нет. Мы готовим проект, резюме и собеседования. Оффер зависит от рынка, города и того, как вы откликаетесь. В тариф «К офферу» входит сопровождение откликов, не контракт с работодателем.</p></div>
+        </div>
+        <div class="acc-item">
+          <button type="button" aria-expanded="false">Как устроен возврат?<span aria-hidden="true"></span></button>
+          <div class="acc-panel"><p>До старта потока — полная сумма. В первые 14 дней после старта — за вычетом уже прошедших созвонов. Дальше возврат не делаем: материалы остаются у вас.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section apply" id="apply">
+      <div class="apply-copy reveal">
+        <p class="eyebrow">Запись</p>
+        <h2>Оставьте заявку на поток</h2>
+        <p>Менеджер школы «Код за 90 дней» в этой версии не получит письмо: после проверки полей откроется окно, что заявка принята на экране. Оплаты на сайте нет.</p>
+        <ul class="contacts">
+          <li><span>Почта</span><a href="mailto:hello@code90.school">hello@code90.school</a></li>
+          <li><span>Телефон</span><a href="tel:+78001009012">8 800 100-90-12</a></li>
+          <li><span>Офис</span>Казань, ул. Спокойная, 7</li>
+        </ul>
+      </div>
+      <form class="form reveal" id="lead" novalidate>
+        <label class="field">
+          <span>Имя</span>
+          <input id="name" name="name" type="text" autocomplete="name" required placeholder="Марина">
+          <small class="error" id="name-error"></small>
+        </label>
+        <label class="field">
+          <span>Телефон</span>
+          <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="+7 (___) ___-__-__">
+          <small class="error" id="phone-error"></small>
+        </label>
+        <label class="field">
+          <span>Тариф</span>
+          <select id="tariff" name="tariff" required>
+            <option value="">Выберите</option>
+            <option>Самостоятельно</option>
+            <option>С наставником</option>
+            <option>К офферу</option>
+          </select>
+          <small class="error" id="tariff-error"></small>
+        </label>
+        <button class="btn btn-accent" type="submit">Записаться</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="logo">Код за 90 дней</p>
+    <p>Школа практического Python. Потоки по 90 дней, ревью кода и карьерный трек. Казань, ул. Спокойная, 7.</p>
+    <a href="#top">Наверх</a>
+  </footer>
+  <dialog class="modal" id="thanks">
+    <h2>Заявка отправлена</h2>
+    <p id="thanks-text"></p>
+    <button class="btn btn-accent" type="button" id="thanks-close">Хорошо</button>
+  </dialog>
+  <script src="js/main.js"></script>
+</body>
+</html>
